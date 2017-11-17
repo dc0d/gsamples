@@ -1,4 +1,4 @@
-package node
+package gmapdual
 
 import (
 	_ "github.com/dc0d/gsamples/gmap1"

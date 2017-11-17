@@ -1,17 +1,13 @@
 package node
 
 import (
-	_ "github.com/dc0d/gsamples/gmap"
+	_ "github.com/dc0d/gsamples/gmapdual"
 )
 
-type Node struct {
-	Name     string
-	Children GMap
-}
+type Type struct{}
 
-// New should return pointer? BTW this is just a demonstration.
-func New() Node {
-	var n Node
-	n.Children = make(map[TGMap]UGMap)
-	return n
+type Node struct {
+	Name   string
+	ByName Gmap1
+	ByType Gmap2
 }
