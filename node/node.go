@@ -1,13 +1,13 @@
 package node
 
 import (
-	_ "github.com/dc0d/gsamples/gmapdual"
+	_ "github.com/dc0d/gsamples/gmapprime"
 )
 
 type Type struct{}
 
 type Node struct {
 	Name   string
-	ByName Gmap1
-	ByType Gmap2
+	ByName GMap
+	ByType GMapPrime
 }

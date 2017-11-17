@@ -1,4 +1,4 @@
-package node
+package gmapprime
 
 import (
 	_ "github.com/dc0d/gsamples/gmap"

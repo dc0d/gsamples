@@ -1,4 +1,4 @@
 package node
 
-type TGmapdual = interface{}
-type UGmapdual = interface{}
+type TGMapPrime = Type
+type UGMapPrime = Node
